@@ -448,7 +448,6 @@ echo
 echo
 echo  -e "\033[31m       *****  Please note! The system will be rebooted!  *****   \033[0m"
 sleep 10
-
 rm -f /home/centos/aws_install_software_web_server_with_db_postgresql_centos8.sh
 echo
 reboot
