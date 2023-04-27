@@ -18,7 +18,7 @@ declare -r timezone="UTC"
 # setting pgsql
 declare -r pgsql="15"
 declare -r postgresql="postgresql-$pgsql"
-declare -r DB_NAME="dev_db"
+declare -r DB_NAME="devdb"
 declare -r DB_USER="developer"
 declare -r DB_PWD="$(openssl rand -base64 13)"            #$(openssl rand -base64 15)
 #########################################################################################
