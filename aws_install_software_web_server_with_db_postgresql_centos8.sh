@@ -99,6 +99,8 @@ su - postgres -s /bin/bash -c "psql -c \"ALTER USER $DB_USER LOGIN SUPERUSER CRE
 su - postgres -s /bin/bash -c "psql -c \"GRANT ALL privileges ON DATABASE $DB_NAME TO $DB_USER;\""
 echo
 sed -i 's/^\([^#]*\)trust/\1md5/g' /var/lib/pgsql/data/pg_hba.conf
+sed -i 's/^\([^#]*\)peer/\1md5/g' /var/lib/pgsql/data/pg_hba.conf
+sed -i 's/^\([^#]*\)ident/\1md5/g' /var/lib/pgsql/data/pg_hba.conf
 echo
 echo -e "pgsql\t$DB_USER\t$DB_PWD\t$DB_NAME" >> /home/$user/account_data.csv
 echo
