@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #====================#
-# For AWS CentOS 8.0 #
+# For AWS CentOS 7.0 #
 #====================#
 
 ######## CONFIG ########################################################################
@@ -18,7 +18,7 @@ declare -r timezone="UTC"
 # setting pgsql
 declare -r pgsql="15"
 declare -r postgresql="postgresql-$pgsql"
-declare -r DB_NAME="devdb"
+declare -r DB_NAME="dev_db"
 declare -r DB_USER="developer"
 declare -r DB_PWD="$(openssl rand -base64 13)"            #$(openssl rand -base64 15)
 #########################################################################################
@@ -450,6 +450,7 @@ echo
 echo
 echo  -e "\033[31m       *****  Please note! The system will be rebooted!  *****   \033[0m"
 sleep 10
-rm -f /home/centos/aws_install_software_web_server_with_db_postgresql_centos8.sh
+
+rm -f ./aws_install_software_web_server_with_db_postgresql_centos8.sh
 echo
 reboot
