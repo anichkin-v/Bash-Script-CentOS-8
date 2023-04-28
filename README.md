@@ -5,4 +5,5 @@
 
  This bash script creates a PostgreSQL user with a randomly generated password (login and password are written in the /home/centos/account_data.csv file) after creating the database configuration, changes are made to the authentication from trust to md5. The user has granted superuser rights.
 
-<img width="930" alt="image" src="https://user-images.githubusercontent.com/122033209/235054511-9f3e5328-a06b-432b-92c4-72561225908f.png">
+
+![image](https://user-images.githubusercontent.com/122033209/235057550-b5f4e8b0-53a9-4125-9f9c-9a0aeeb6be8e.png)
