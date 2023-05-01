@@ -7,3 +7,6 @@
 
 
 ![image](https://user-images.githubusercontent.com/122033209/235057550-b5f4e8b0-53a9-4125-9f9c-9a0aeeb6be8e.png)
+  
+  
+  OR clean server using the "install.....sh" script
