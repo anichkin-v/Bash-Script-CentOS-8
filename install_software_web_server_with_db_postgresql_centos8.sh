@@ -41,7 +41,6 @@ mkdir /home/$user/web /home/$user/web/public /home/$user/.ssh
 
 # Add SSH Authorized KEY
 cat << EOF >/home/$user/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGERoN68Zfv9yu1JZown3YKN7jkzcxq1g9DKL0fQwy2VbDr9luYMyZ/jdizNKU1XuHr94fFESZe8NzGitqYHaOJINI/y+H+Nc4r05WfbCgKaC6KvECfd12euJ8uil0cgJJkZaYzGttdyjPqz2WNt1m4kE/2hkjvD2GHLHwzg7m2mAz3yA358alYUO+ASr/Yw+Rr1UGnp87v0T+lzfHrgNOOL6A9+ZMEM1xN20BIr6qqvg4mpQsoAehG/Rv1NpQYhdhFlzf2jR3zqtUN9sESmrXcPVZUgrjc3XG/rZ8Adw2JvIcn0WMnA6wytj6XrCEVfNTl/YWKisFPVbesAD+YlauvSZTpLpOp4XAZGkrhRYurD90uUIHbrb5cTAiwl5YSBAEQL5udljzYX7yidx8dgD0Yafp7eenYoeS4uf9OALJTs8ZWftBCvU3thlSzqU3LMrb9BlAbIxRgVqNUEdVSP6ZWj6tOr/nyabmogQ5Hw/ei6fqpQbZ4HYVyirpNer66Ps= vladimiranichkin@MacBook-Air-Vladimir.local
 EOF
 # Add user SSH Authorized KEY
 cat << EOF >/etc/sudoers.d/Init-users
